@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>snake</title>
+		<link rel="stylesheet" href="src/css/style.css" type="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="lib/requestAnimationFrame.js"></script>
+ 		<script type="text/javascript" src="src/js/main.js"></script>
+		<script type="text/javascript" src="src/js/config.js"></script>
+		<script type="text/javascript" src="src/js/controller.js"></script>
+		<script type="text/javascript" src="src/js/player.js"></script>
+		<script type="text/javascript" src="src/js/layer.js"></script>
+		<script type="text/javascript" src="src/js/food.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<span>Punkte: <input type="text" id="punkte" value="0"></span>
+			<div id="screen" style="background:black"></div>
+			Lenken: Richtungstasten
+			|
+			Reset: Esc
+		</div>
+		
+		
+		<script type="text/javascript">
+			window.onload = function(){
+				snake_init({
+					screen : document.getElementById('screen')
+				}); // */
+			}
+		</script>
+	</body>
+</html>

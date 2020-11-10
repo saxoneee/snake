@@ -1,0 +1,36 @@
+hr{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#wrap{
+	width:500px;
+	height:500px;
+	display:block;
+	box-shadow:0 0 2px #000;
+	margin:0 auto;
+	margin-top:30px;
+	padding:20px;
+	background:black;
+	color:#eee;
+}
+#wrap span{
+	display:block;
+	margin-bottom:10px;
+}
+#wrap input{
+	background:black;
+	border:0;
+	color:#eee;
+}
+#screen{
+	width:500px;
+	height:450px;
+	display:block;
+	position:relative;
+	border:1px solid #eee;
+}
+#screen canvas{
+	position:absolute;
+	top:0;
+	left:0;
+}
